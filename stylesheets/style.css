@@ -1,0 +1,33 @@
+#main-container {
+    padding: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.score-card table {
+    border: 1px solid black;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0;
+    margin: auto;
+    font-size: 4vw;
+}
+
+.score-card td {
+    text-align: center;
+    padding: 8px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.font-size-lrg {
+    font-size: 10vw;
+}
